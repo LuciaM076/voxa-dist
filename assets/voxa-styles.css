@@ -240,50 +240,6 @@ a{color:inherit;text-decoration:none}
   font-size:13px;font-weight:500;
 }
 
-.trustBar{
-  display:flex;flex-wrap:wrap;align-items:center;justify-content:center;
-  gap:14px 28px;
-  padding:24px;
-  border:1px solid var(--line);
-  border-radius:var(--radius);
-  background:rgba(255,255,255,.02);
-}
-.trustBar .trustLabel{
-  width:100%;text-align:center;
-  font-size:12px;letter-spacing:.12em;text-transform:uppercase;
-  color:var(--muted);margin-bottom:4px;
-}
-.trustLogo{
-  font-size:17px;font-weight:700;letter-spacing:-.01em;
-  color:rgba(232,244,248,.7);
-  opacity:.85;
-  transition:color .2s var(--ease), opacity .2s var(--ease);
-}
-.trustLogo:hover{color:var(--text);opacity:1}
-
-.testimonialGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-.testimonial{
-  display:flex;flex-direction:column;gap:14px;
-  border:1px solid var(--line);
-  border-radius:var(--radius);
-  background:linear-gradient(145deg, rgba(255,255,255,.05), rgba(255,255,255,.02));
-  padding:24px;
-  transition:transform .2s var(--ease), box-shadow .2s var(--ease), border-color .2s var(--ease);
-}
-.testimonial:hover{transform:translateY(-3px);box-shadow:var(--shadow-hover);border-color:rgba(255,255,255,.16)}
-.testimonial .quoteMark{font-size:40px;line-height:.6;color:var(--voxa);font-weight:800;height:18px}
-.testimonial blockquote{margin:0;font-size:15px;color:rgba(232,244,248,.92);flex:1}
-.testimonialBy{display:flex;align-items:center;gap:12px;margin-top:2px}
-.testimonialAvatar{
-  width:42px;height:42px;border-radius:50%;flex-shrink:0;
-  display:flex;align-items:center;justify-content:center;
-  font-weight:700;font-size:15px;color:#041018;
-  background:linear-gradient(135deg, var(--voxa), var(--accent));
-}
-.testimonialAvatar.titanAvatar{background:linear-gradient(135deg, var(--titan), #ff9f43)}
-.testimonialMeta strong{display:block;font-size:14px}
-.testimonialMeta span{display:block;font-size:13px;color:var(--muted)}
-
 .siteFooter{border-top:1px solid var(--line);margin-top:32px;padding:24px 0}
 .footerGrid{
   display:grid;
@@ -301,7 +257,7 @@ a{color:inherit;text-decoration:none}
 }
 
 @media (max-width:920px){
-  .heroGrid,.heroGridWide,.grid2,.grid3,.footerGrid,.testimonialGrid{grid-template-columns:1fr}
+  .heroGrid,.heroGridWide,.grid2,.grid3,.footerGrid{grid-template-columns:1fr}
   .featureStrip{grid-template-columns:repeat(2,1fr)}
   .section{padding:40px 0}
   .cardVisual img{height:160px}
