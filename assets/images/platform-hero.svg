@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 420" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1120" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#060d12"/>
+      <stop offset="1" stop-color="#0c1820"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#00d4aa"/>
+      <stop offset="1" stop-color="#4dabf7"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ff6b35"/>
+      <stop offset="1" stop-color="#ff9f43"/>
+    </linearGradient>
+  </defs>
+  <rect width="1120" height="420" fill="url(#bg)"/>
+  <circle cx="180" cy="120" r="120" fill="#00d4aa" opacity=".08"/>
+  <circle cx="940" cy="300" r="140" fill="#ff6b35" opacity=".08"/>
+
+  <!-- VoxaIP panel -->
+  <rect x="60" y="70" width="420" height="280" rx="20" fill="#0f1a28" stroke="rgba(0,212,170,.35)" stroke-width="2"/>
+  <rect x="90" y="100" width="140" height="28" rx="8" fill="rgba(0,212,170,.15)"/>
+  <rect x="90" y="150" width="360" height="70" rx="12" fill="rgba(255,255,255,.04)" stroke="rgba(255,255,255,.08)"/>
+  <path d="M110 195c20-30 40-30 60 0s40 30 60 0 40-30 60 0 40 30 60 0 40-30 60 0" stroke="#00d4aa" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="120" cy="260" r="22" fill="rgba(0,212,170,.2)" stroke="#00d4aa" stroke-width="2"/>
+  <path d="M112 260h16M120 252v16" stroke="#00d4aa" stroke-width="2" stroke-linecap="round"/>
+  <rect x="170" y="245" width="120" height="12" rx="6" fill="rgba(255,255,255,.12)"/>
+  <rect x="170" y="268" width="80" height="10" rx="5" fill="rgba(255,255,255,.08)"/>
+  <rect x="320" y="245" width="110" height="50" rx="10" fill="rgba(77,171,247,.12)" stroke="rgba(77,171,247,.3)"/>
+  <text x="90" y="330" fill="#8fa8b8" font-family="system-ui,sans-serif" font-size="13">Active calls - Queue - Analytics</text>
+
+  <!-- Connection bridge -->
+  <path d="M500 210h120" stroke="url(#teal)" stroke-width="3" stroke-dasharray="8 6"/>
+  <circle cx="560" cy="210" r="28" fill="#0c1820" stroke="url(#teal)" stroke-width="2"/>
+  <path d="M548 210h24M560 198v24" stroke="#00d4aa" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Titan CRM panel -->
+  <rect x="640" y="70" width="420" height="280" rx="20" fill="#0f1a28" stroke="rgba(255,107,53,.35)" stroke-width="2"/>
+  <rect x="670" y="100" width="160" height="28" rx="8" fill="rgba(255,107,53,.15)"/>
+  <rect x="670" y="150" width="90" height="160" rx="10" fill="rgba(255,107,53,.08)" stroke="rgba(255,107,53,.25)"/>
+  <rect x="780" y="150" width="90" height="160" rx="10" fill="rgba(255,107,53,.12)" stroke="rgba(255,107,53,.35)"/>
+  <rect x="890" y="150" width="90" height="160" rx="10" fill="rgba(255,107,53,.18)" stroke="rgba(255,107,53,.45)"/>
+  <rect x="685" y="170" width="60" height="36" rx="6" fill="rgba(255,255,255,.1)"/>
+  <rect x="685" y="220" width="60" height="36" rx="6" fill="rgba(255,255,255,.08)"/>
+  <rect x="795" y="170" width="60" height="36" rx="6" fill="rgba(255,255,255,.12)"/>
+  <rect x="905" y="170" width="60" height="36" rx="6" fill="rgba(255,255,255,.14)"/>
+  <text x="670" y="330" fill="#8fa8b8" font-family="system-ui,sans-serif" font-size="13">Pipeline - Contacts - Deals</text>
+</svg>

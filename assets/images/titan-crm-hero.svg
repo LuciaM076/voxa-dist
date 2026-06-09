@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 340" fill="none">
+  <defs>
+    <linearGradient id="tbg" x1="0" y1="0" x2="1120" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#100a08"/>
+      <stop offset="1" stop-color="#1a120e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1120" height="340" fill="url(#tbg)"/>
+  <circle cx="200" cy="260" r="110" fill="#ff6b35" opacity=".08"/>
+
+  <!-- CRM dashboard -->
+  <rect x="80" y="40" width="960" height="260" rx="18" fill="#0c1820" stroke="rgba(255,107,53,.3)" stroke-width="2"/>
+  <rect x="110" y="70" width="220" height="24" rx="6" fill="rgba(255,107,53,.2)"/>
+
+  <!-- Pipeline columns -->
+  <rect x="110" y="110" width="200" height="160" rx="12" fill="rgba(255,107,53,.06)" stroke="rgba(255,107,53,.2)"/>
+  <text x="130" y="135" fill="#ff6b35" font-family="system-ui,sans-serif" font-size="12" font-weight="600">LEADS</text>
+  <rect x="125" y="150" width="170" height="44" rx="8" fill="rgba(255,255,255,.08)"/>
+  <rect x="125" y="205" width="170" height="44" rx="8" fill="rgba(255,255,255,.06)"/>
+
+  <rect x="330" y="110" width="200" height="160" rx="12" fill="rgba(255,107,53,.1)" stroke="rgba(255,107,53,.28)"/>
+  <text x="350" y="135" fill="#ff6b35" font-family="system-ui,sans-serif" font-size="12" font-weight="600">QUALIFIED</text>
+  <rect x="345" y="150" width="170" height="44" rx="8" fill="rgba(255,255,255,.1)"/>
+  <rect x="345" y="205" width="170" height="44" rx="8" fill="rgba(255,255,255,.08)"/>
+
+  <rect x="550" y="110" width="200" height="160" rx="12" fill="rgba(255,107,53,.14)" stroke="rgba(255,107,53,.35)"/>
+  <text x="570" y="135" fill="#ff6b35" font-family="system-ui,sans-serif" font-size="12" font-weight="600">PROPOSAL</text>
+  <rect x="565" y="150" width="170" height="44" rx="8" fill="rgba(255,255,255,.12)"/>
+
+  <rect x="770" y="110" width="200" height="160" rx="12" fill="rgba(0,212,170,.08)" stroke="rgba(0,212,170,.3)"/>
+  <text x="790" y="135" fill="#00d4aa" font-family="system-ui,sans-serif" font-size="12" font-weight="600">WON</text>
+  <rect x="785" y="150" width="170" height="44" rx="8" fill="rgba(0,212,170,.15)"/>
+
+  <!-- Chart -->
+  <rect x="990" y="110" width="30" height="160" rx="6" fill="rgba(255,255,255,.04)"/>
+  <rect x="995" y="200" width="20" height="50" rx="4" fill="#ff6b35" opacity=".7"/>
+  <rect x="995" y="160" width="20" height="35" rx="4" fill="#ff9f43" opacity=".7"/>
+  <rect x="995" y="130" width="20" height="25" rx="4" fill="#00d4aa" opacity=".7"/>
+</svg>
